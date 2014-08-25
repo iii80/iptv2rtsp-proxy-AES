@@ -3,7 +3,7 @@ iptv2rtsp-proxy-AES
 
 Fork was not possible. So i started my own with the latest master i had.
 
-Usage
+Pre-compile
 ===================
 
 Change line 369 and 370 in src/cs378x.c to reflect your user and pass and remove the comment else it won't work.
