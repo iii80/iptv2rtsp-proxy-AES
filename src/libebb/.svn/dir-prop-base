@@ -1,0 +1,16 @@
+K 10
+svn:ignore
+V 53
+core
+*.o
+*.a
+*.so
+*.exe
+*~
+*.old
+*.bak
+*.orig
+*.rej
+
+
+END

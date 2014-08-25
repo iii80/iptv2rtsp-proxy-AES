@@ -1,0 +1,39 @@
+Version 0.2.3
+=============
+    + Set SO_REUSEADDR flag for sockets receiving multicast to
+    improve co-existing with other applications receiving multicast
+
+    + Improve some error messages
+
+    + Added few more parameters to the configuration file
+
+Version 0.2.2
+=============
+    + HTTP protocol now supports the URL scheme used by udpxy
+    for improved compatibility with some third-parity software
+
+    + Set socket priority for HTTP-streaming sockets
+
+Version 0.2.1
+=============
+    + Properly detect HTTP client disconnects - prevent
+    resource leakage under certain conditions
+
+    + Fixed bug which made first few seconds of HTTP stream
+    unplayable
+
+Version 0.2
+===========
+    * Added HTTP "continuous download" streaming
+
+    + Added support for RTP UDP multicast sources
+
+    + Improved support of multiple clients with same
+    IP address via RTSP
+
+    + Set IP TOS and socket priority for RTP streams
+
+
+Version 0.1
+===========
+    Initial release.
